@@ -34,7 +34,7 @@
     width: 300px;
     margin: 0 auto;
 }
-//*ВТОРАЯ ЧАСТЬ*//
+/*ВТОРАЯ ЧАСТЬ*/
 #photo-2 {
     width: 100vw;
 }
@@ -63,11 +63,16 @@
 .container > div {
     margin: 10px 0;
     border-top: 1px solid gray;
+    padding: 10px 0;
+}
+.article-heading-2:hover a {
+    color: #d90429;
 }
 .footer-2 {
     width: 300px;
     margin: 0 auto;
     color: gray;
+    margin-bottom: 20px;
 }
 .maket-2 {
     display: none;
@@ -111,5 +116,6 @@
         width: 695px;
         margin: 0 auto;
         color: gray;
+        margin-bottom: 20px;
     }
 }
