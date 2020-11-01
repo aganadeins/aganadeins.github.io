@@ -96,24 +96,65 @@ h1 {
     display: flex;
     align-items: center;
 }
+.maket-2 {
+    display: none;
+}
 
-
-//* что-то здесь творю с адаптивностью, но пока ужас
-@media screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
-    }
-    .sidebar {
-        width: 0%;
+@media screen and (max-width: 1000px) {
+    .maket-1 {
         display: none;
     }
-    .article-div {
-        width: 90vw;
-        margin: 0 auto;
-        padding: 0;
+    .maket-2 {
+        display: block;
     }
-    nav {
-        width: 90vw;
-        display: none;
-    }
+}
+.main-2 {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+}
+.article-div-2 {
+    width: 80%;
+    margin: 0 auto;
+}
+.article-div-2 h1 {
+    font-size: 48px;
+}
+#publication_info-2 {
+    font-size: 20px;
+    color: #8d99ae;
+    position: relative;
+    top: -10px;
+}
+.article-tesis-2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+.article-main-2 {
+    font-weight: 300;
+    font-size: 16px;
+}
+.citate-2 {
+    display: block;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.more-info-after-article-2 {
+    margin: 30px 0 30px;
+}
+.more-info-after-article-2 h2 {
+    font-size: 20px;
+}
+.article-heading-without-counter-2 {
+    height: 40px;
+    padding: 10px 40px 25px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.article-heading-without-counter-2:hover {
+    background-color: rgba(255,255,255,.5);
+}
+.article-heading-without-counter-2:hover h2 {
+    color: #d90429;
 }
