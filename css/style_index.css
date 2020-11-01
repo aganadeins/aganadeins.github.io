@@ -80,7 +80,7 @@
         display: block;
     }
 }
-@media screen and (max-aspect-ratio: 15/10) {
+@media screen and (max-aspect-ratio: 15/10) and (min-width: 701px) {
     .maket-1 {
         display: none;
     }
