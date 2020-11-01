@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.maket-1 {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#body-inside {
+    display: inline-flex;
+}
+#photo {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(../images/photo.jpg);
+    background-position: center;
+    background-size: contain;
+}
+#name {
+    font-size: 62px;
+}
+#description {
+    width: calc(100vw - 100vh);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading {
+    width: 300px;
+}
+#cite {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+//*ВТОРАЯ ЧАСТЬ*//
+#photo-2 {
+    width: 100vw;
+}
+#name-2 {
+    font-size: 48px;
+}
+#description-2 {
+    width: 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading-2 {
+    width: 300px;
+    margin-top: 20px;
+}
+#cite-2 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.container {
+    width: 300px;
+    margin: 20px auto;
+}
+.container > div {
+    margin: 10px 0;
+    border-top: 1px solid gray;
+}
+.footer-2 {
+    width: 300px;
+    margin: 0 auto;
+    color: gray;
+}
+.maket-2 {
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .maket-1 {
+        display: none;
+    }
+    .maket-2 {
+        display: block;
+    }
+}
+@media screen and (max-aspect-ratio: 15/10) {
+    .maket-1 {
+        display: none;
+    }
+    .maket-2 {
+        display: block;
+    }
+    #name-2 {
+        font-size: 72px;
+    }
+    #heading-2 {
+        width: 695px;
+        margin-top: 20px;
+    }
+    #cite-2 {
+        display: block;
+        width: 695px;
+        margin: 0 auto;
+    }
+    .container {
+        width: 695px;
+        margin: 20px auto;
+    }
+    .container > div {
+        margin: 20px 0;
+        border-top: 1px solid gray;
+    }
+    .footer-2 {
+        width: 695px;
+        margin: 0 auto;
+        color: gray;
+    }
+}

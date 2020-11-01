@@ -1,0 +1,37 @@
+.flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(90vw + 60px);
+    margin: 0 auto;
+}
+.image-in-galery {
+    width: 30vw;
+    height: 30vw;
+    margin: 10px;
+}
+#next {
+    background-image: url(../images/gallery/next.jpeg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#next:hover {
+    background-blend-mode: normal;
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+    .image-in-galery {
+        width: 45vw;
+        height: 45vw;
+        margin: 5px;
+}
+@media screen and (max-width: 360px) {
+    .image-in-galery {
+        width: 90vw;
+        height: 90vw;
+        margin: 5px;
+}

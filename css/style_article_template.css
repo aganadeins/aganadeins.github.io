@@ -1,0 +1,119 @@
+body {
+    background-color: #edf2f4;
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.sidebar {
+    width: 35%;
+    height: 800px;
+}
+.article-div {
+    width: 65%;
+    padding: 20px;
+}
+h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+#publication_info {
+    font-size: 30px;
+    color: #8d99ae;
+    position: relative;
+    top: -20px;
+}
+.article-tesis {
+    font-weight: 700;
+    font-size: 40px;
+}
+.article-main {
+    font-weight: 300;
+    font-size: 24px;
+}
+.citate {
+    display: block;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.citate::before {
+    display: block;
+    content: " ❝ ";
+    width: 20px;
+    height: 20px;
+    background-color: #d90429;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-bottom: 10px;
+}
+.citate::after {
+    display: block;
+    content: " ❞ ";
+    width: 20px;
+    height: 20px;
+    background-color: #d90429;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+}
+.more-info-after-article {
+    margin: 30px 0 30px;
+}
+.article-heading-without-counter {
+    height: 40px;
+    padding: 10px 40px 25px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.article-heading-without-counter:hover {
+    background-color: rgba(255,255,255,.5);
+}
+.article-heading-without-counter:hover h2 {
+    color: #d90429;
+}
+
+.avatar {
+    border: 4px solid #333;
+    border-radius: 5px;
+}
+.sidebar-inside {
+    padding: 40px 10px;
+    position: relative;
+    top: 100px;
+}
+.sidebar-inside-inside {
+    display: flex;
+}
+.margin-10 {
+    margin: 10px;
+}
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+
+//* что-то здесь творю с адаптивностью, но пока ужас
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    .sidebar {
+        width: 0%;
+        display: none;
+    }
+    .article-div {
+        width: 90vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+    nav {
+        width: 90vw;
+        display: none;
+    }
+}
