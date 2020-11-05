@@ -168,12 +168,13 @@ h1 {
     background-image: url(../images/icons/menu.png);
     background-position: center;
     background-size: contain;
+    background-color: #edf2f4;
     border: none;
     position: absolute;
     left: calc(100% - 80px);
     top: 40px;
     cursor: pointer;
 }
-.dropdown-menu {
+#burger-menu-inside {
     display: none;
 }

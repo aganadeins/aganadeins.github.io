@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link href="css/common_styles.css" rel="stylesheet">
+    <link href="css/style_about_me.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/faviconka_ru_1513.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/faviconka_ru_1513.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="maket-1">
+        <nav>
+            <div class="nav-menu-horizontal">
+                <ul>
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Заметки</a>
+                    </li>
+                    <li>
+                        <a href="galery.html">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="about_me.html" class="active">Обо мне</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="body-inside">
+            <section id="photo">
+                
+            </section>
+            <section id="description">
+                <div id="description-inside">
+                    <div id="heading"><p id="name"><span class="red">К</span>УСКО<br>КОШКИ<span class="red">Н</span><p></div>
+                    <p>Всем большой привет. Меня зовут Куско, сокращённо - Куся. На этой страничке я бы хотел коротко рассказать о себе, а также попросить вас ответить на пару вопросов моей анкеты.</p>
+                    <div class="columns flex">
+                        <div class="column">
+                            <h2>Мне нравится</h2>
+                            <ul>
+                                <li>Нападать на руки</li>
+                                <li>Копаться в песочке</li>
+                                <li>Залазить под диван</li>
+                                <li>Облизывать волосы</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h2>Мне не нравится</h2>
+                            <ul>
+                                <li>Соседский кот</li>
+                                <li>Когда берут на ручки</li>
+                                <li>Когда не кормят уже 20 минут</li>
+                                <li>Спать по ночам</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2><i>Моя жизненная цель</i></h2>
+                    <p>Я бы хотел вырасти большим и сильным котом-хищником, поэтому сейчас днями и ночами оттачиваю свои навыки на ногах людей и постоянно прошу кушать.</p>
+                    <h2><i>Мои достижения</i></h2>
+                    <p>Главным своим достижением на данный момент я считаю то, что смог обаять человека и попасть в хороший дом.</p>
+                    <h2>А теперь хотелось бы узнать немного о вас (заполните мою анкету)</h2>
+                    <form method="POST">
+                        <fieldset>
+                            <label>Ваше имя<br><input type="text" required></label>
+                            <br>
+                            <label>Сколько вам лет<br><input type="number" max="100" required></label>
+                            <br>
+                            <label>Знак зодиака<br>
+                                <select required>
+                                    <option>Овен</option>
+                                    <option>Телец</option>
+                                    <option>Близнецы</option>
+                                    <option>Рак</option>
+                                    <option>Лев</option>
+                                    <option>Дева</option>
+                                    <option>Весы</option>
+                                    <option>Скорпион</option>
+                                    <option>Стрелец</option>
+                                    <option>Козерог</option>
+                                    <option>Водолей</option>
+                                    <option>Рыбы</option>
+                                </select>
+                            </label>
+                            <br>
+                            <label>Я вам понравился?
+                                <p><input name="like" type="radio" value="da" required> Да</p>
+                                <p><input name="like" type="radio" value="net" required> Нет</p>
+                            </label>
+                            <br>
+                            <label>Напишите ваш email, если предыдущий ответ был "Да"<br><input type="email" placeholder="example@mail.ru"></label>
+                        </fieldset>
+                        <input type="submit">
+                    </form>
+                </div>
+            </section>
+        </div>
+        <footer class="footer-1">
+            © Куско Кошкин 2020
+            <br>
+            <a href="tel:+1234567890"> +1234567890 </a>; <a href="mailto:kot@koshkin.ru?subject=Вопрос по блогу"> kot@koshkin.ru</a>
+            <br>
+            А также follow me 
+            <br>
+            <a href="https://instagram.com/alisiamilki"> <img src="images/icons/inst.png" height="20"></a>
+            <a href="https://vk.com/agata_fed"> <img src="images/icons/vk.png" height="20"></a>
+        </footer>
+    </div>
+        <!--Пусть это второй макет-->
+        <div class="maket-2">
+            <div id="body-inside-2">
+                <section id="photo-2">
+                    <img src="images/ohotnik.jpg" width="100%">
+                </section>
+                <section id="description-2">
+                    <div id="description-inside">
+                        <div id="heading-2"><p id="name-2"><span class="red">К</span>УСКО<br>КОШКИ<span class="red">Н</span><p></div>
+                        <p>Всем большой привет. Меня зовут Куско, сокращённо - Куся. На этой страничке я бы хотел коротко рассказать о себе, а также попросить вас ответить на пару вопросов моей анкеты.</p>
+                        <div class="columns-2 flex">
+                            <div class="column-2">
+                                <h2>Мне нравится</h2>
+                                <ul>
+                                    <li>Нападать на руки</li>
+                                    <li>Копаться в песочке</li>
+                                    <li>Залазить под диван</li>
+                                    <li>Облизывать волосы</li>
+                                </ul>
+                            </div>
+                            <div class="column-2">
+                                <h2>Мне не нравится</h2>
+                                <ul>
+                                    <li>Соседский кот</li>
+                                    <li>Когда берут на ручки</li>
+                                    <li>Когда не кормят уже 20 минут</li>
+                                    <li>Спать по ночам</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h2><i>Моя жизненная цель</i></h2>
+                        <p>Я бы хотел вырасти большим и сильным котом-хищником, поэтому сейчас днями и ночами оттачиваю свои навыки на ногах людей и постоянно прошу кушать.</p>
+                        <h2><i>Мои достижения</i></h2>
+                        <p>Главным своим достижением на данный момент я считаю то, что смог обаять человека и попасть в хороший дом.</p>
+                        <h2>А теперь хотелось бы узнать немного о вас (заполните мою анкету)</h2>
+                        <form method="POST">
+                            <fieldset>
+                                <label>Ваше имя<br><input type="text" required></label>
+                                <br>
+                                <label>Сколько вам лет<br><input type="number" max="100" required></label>
+                                <br>
+                                <label>Знак зодиака<br>
+                                    <select required>
+                                        <option>Овен</option>
+                                        <option>Телец</option>
+                                        <option>Близнецы</option>
+                                        <option>Рак</option>
+                                        <option>Лев</option>
+                                        <option>Дева</option>
+                                        <option>Весы</option>
+                                        <option>Скорпион</option>
+                                        <option>Стрелец</option>
+                                        <option>Козерог</option>
+                                        <option>Водолей</option>
+                                        <option>Рыбы</option>
+                                    </select>
+                                </label>
+                                <br>
+                                <label>Я вам понравился?
+                                    <p><input name="like" type="radio" value="da" required> Да</p>
+                                    <p><input name="like" type="radio" value="net" required> Нет</p>
+                                </label>
+                                <br>
+                                <label>Напишите ваш email, если предыдущий ответ был "Да"<br><input type="email" placeholder="example@mail.ru"></label>
+                            </fieldset>
+                            <input type="submit">
+                        </form>
+                    </div>
+                    </section>
+                </div>
+                
+
+
+
+
+
+            <section class="container center">
+                <div class="article-heading-2">
+                    <a href="index.html">
+                        <h2>Главная</h2> 
+                    </a>
+                </div>
+                <div class="article-heading-2">
+                    <a href="blog.html"><h2>Избранные статьи</h2></a>
+                </div>
+                <div class="article-heading-2">
+                    <a href="galery.html"><h2>Фотогалерея</h2></a>
+                </div>
+            </section>
+            <footer class="footer-2">
+                © Куско Кошкин 2020
+                <br>
+                <a href="tel:+1234567890"> +1234567890 </a>; <a href="mailto:kot@koshkin.ru?subject=Вопрос по блогу"> kot@koshkin.ru</a>
+                <br>
+                А также follow me 
+                <br>
+                <a href="https://instagram.com/alisiamilki"> <img src="images/icons/inst.png" height="20"></a>
+                <a href="https://vk.com/agata_fed"> <img src="images/icons/vk.png" height="20"></a>
+            </footer>
+        </div class="maket-2">
+</body>
+</html>

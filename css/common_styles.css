@@ -23,13 +23,13 @@ nav a{
     width: 150px;
     padding: 10px 20px;
     color: #333;
-    transition: .5s ease-in-out;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
 }
 nav a:hover {
     color: #d90429;
+    transition: .2s ease-in-out;
 }
 .active {
     color: #d90429;
@@ -53,4 +53,7 @@ nav a:hover {
 .fog {
     background-color: rgba(0, 0, 0, .5);
     z-index: 999;
+}
+.flex {
+    display: flex;
 }
