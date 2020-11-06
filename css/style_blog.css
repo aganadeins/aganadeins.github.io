@@ -57,4 +57,7 @@ main a:visited {
     .header-img {
         width: 100%;
     }
+    .article-heading {
+        height: max-content;
+    }
 }
