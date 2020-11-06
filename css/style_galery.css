@@ -119,10 +119,40 @@
     border-radius: 15px;
     position: absolute;
     top: 5px;
-    left: 5px;
+    left: 40px;
     padding-top: 5px;
 }
 .close-modal-icon:hover {
     background-color: #ef233c;
+    transition: .2s linear;
+}
+.next-modal-icon {
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 75px;
+    padding-top: 5px;
+}
+.next-modal-icon:hover {
+    background-color: rosybrown;
+    transition: .2s linear;
+}
+.pre-modal-icon {
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding-top: 5px;
+}
+.pre-modal-icon:hover {
+    background-color: rosybrown;
     transition: .2s linear;
 }
