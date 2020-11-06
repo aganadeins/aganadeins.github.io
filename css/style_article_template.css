@@ -101,7 +101,14 @@ h1 {
 .maket-2 {
     display: none;
 }
-
+.footer-1 {
+    width: 90vw;
+    text-align: center;
+    font-size: larger;
+    padding: 20px 0;
+    border-top: 1px gray solid;
+    margin: 20px auto;
+}
 @media screen and (max-width: 1000px) {
     .maket-1 {
         display: none;

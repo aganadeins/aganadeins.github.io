@@ -40,6 +40,14 @@ h2 {
 main a:visited {
     color: #aaaaaa;
 }
+.footer-1 {
+    width: 90vw;
+    text-align: center;
+    font-size: larger;
+    padding: 20px 0;
+    border-top: 1px gray solid;
+    margin: 20px auto;
+}
 @media screen and (max-width: 700px) {
     .header {
         width: 90%;

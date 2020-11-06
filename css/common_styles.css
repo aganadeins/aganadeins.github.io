@@ -57,11 +57,3 @@ nav a:hover {
 .flex {
     display: flex;
 }
-.footer-1 {
-    width: 90vw;
-    text-align: center;
-    font-size: larger;
-    padding: 20px 0;
-    border-top: 1px gray solid;
-    margin: 20px auto;
-}
